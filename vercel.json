@@ -1,0 +1,15 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/embed/yousha-comment.js",
+      "destination": "https://ys-assets.daobox.cc/yousha-assets/0.0.6/js/yousha-comment.YPWXOAQA.js",
+      "permanent": false
+    }
+  ]
+}
