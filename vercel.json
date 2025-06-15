@@ -11,5 +11,24 @@
       "destination": "https://ys-assets.daobox.cc/yousha-assets/0.0.6/js/yousha-comment.YPWXOAQA.js",
       "permanent": false
     }
+  ],
+  "headers": [
+    {
+      "source": "/embed/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, POST, PUT, DELETE, OPTIONS"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "X-Requested-With, Content-Type, Accept"
+        }
+      ]
+    }
   ]
 }
